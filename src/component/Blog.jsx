@@ -1,6 +1,6 @@
 import React from 'react'
 import Navigation from './common_component/navigation'
-import Blog1 from '../assets/blog1.png'
+import Blog1 from '../assets/Blog1.png'
 import person2 from '../assets/person2.png'
 import Box from './common_component/box'
 import Blog2 from '../assets/blog2.png'
