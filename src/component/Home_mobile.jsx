@@ -12,7 +12,7 @@ import service4 from "../assets/service4.png";
 import details from "../assets/details.png";
 import chemical from "../assets/chemical.png";
 import innovation from "../assets/innovation.png";
-import collaborative from "../assets/collaborative.png";
+import collaborative from "../assets/Collaborative.png";
 import img1 from "../assets/contact_img1.png";
 import img2 from "../assets/contact_img2.png";
 import contact_banner from "../assets/contact-banner.png";
