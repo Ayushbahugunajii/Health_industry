@@ -21,6 +21,7 @@ import right from "../assets/right.png";
 import person from "../assets/person.png";
 import dot from "../assets/review_logo.png";
 import Footer from "./common_component/footer";
+import { Link } from "react-router";
 
 const Home_mobile = () => {
   return (
@@ -60,7 +61,9 @@ const Home_mobile = () => {
           <div className="flex items-center gap-3">
             <img src={manufacturing} alt="" className="h-8 w-8 shrink-0" />
             <span className="font-medium text-lg underline">
+              <Link to="/product">
               High Quality Manufacturing
+              </Link>
             </span>
           </div>
           <p className="text-sm font-normal leading-5">
@@ -80,7 +83,9 @@ const Home_mobile = () => {
           <div className="flex items-center gap-3">
             <img src={productrion} alt="" className="h-8 w-8 shrink-0" />
             <span className="font-medium text-lg underline">
+              <Link to="/services">
               Safe Production Process
+              </Link>
             </span>
           </div>
           <p className="text-sm font-normal leading-5">
